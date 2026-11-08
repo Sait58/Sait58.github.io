@@ -111,3 +111,6 @@ h3{font-size:clamp(24px,3vw,35px);line-height:1.12;letter-spacing:-.035em;margin
 #post-search:focus-visible{outline:3px solid var(--rust);outline-offset:2px}
 #search-status{min-height:1.5em;color:var(--soft);font-size:13px}
 .story-card[hidden]{display:none}
+
+/* Editorial covers for individual stories */
+.post-visual{margin:0 0 28px;max-width:100%;overflow:hidden}.post-visual img{display:block;width:100%;height:auto;aspect-ratio:2.4/1;object-fit:cover;border-radius:3px}.post-visual figcaption{margin-top:8px;color:#74685f;font-size:10px;font-weight:700;letter-spacing:.13em}.post-visual + .post-copy{padding-top:8px}@media(max-width:620px){.post-visual img{aspect-ratio:1.5/1}.post-visual{margin-bottom:20px}}
